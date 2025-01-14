@@ -5,10 +5,9 @@ function Home() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  // Fonction pour gérer l'envoi par mail
   const handleSend = (e) => {
     e.preventDefault();
-    const mailtoLink = `mailto:votre-email@example.com?subject=Message%20de%20${encodeURIComponent(
+    const mailtoLink = `mailto:fkamgang06@gmail.com?subject=Message%20de%20${encodeURIComponent(
       name
     )}&body=${encodeURIComponent(message)}%0A%0ANom%20: ${encodeURIComponent(
       name
