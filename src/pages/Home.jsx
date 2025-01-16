@@ -7,6 +7,7 @@ function Home() {
 
   const handleSend = (e) => {
     e.preventDefault();
+    
     const mailtoLink = `mailto:fkamgang06@gmail.com?subject=Message%20de%20${encodeURIComponent(
       name
     )}&body=${encodeURIComponent(message)}%0A%0ANom%20: ${encodeURIComponent(
